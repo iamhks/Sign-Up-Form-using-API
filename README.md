@@ -4,7 +4,7 @@ I was in need of Sign-Up form for my website and made this project was made to s
 
 1) [Basics](#Basics)
 2) [Coding](#Coding)
-3) [Setting it up](#Setting it up)
+3) [Setting it up](#Setting-it-up)
 
 ## Basics
 ## Coding
