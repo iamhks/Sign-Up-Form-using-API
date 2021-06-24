@@ -13,7 +13,7 @@ API stands for Application Programming Interface which in simple terms bridges t
 ## Coding
 
 ### Front-End
-This code generates a modal popup form.
+This code generates a modal popup form. Although the css and class for the Click Here button is not present here in the code because I preferred to make use WordPress's button class instead of defining another css for the same.
 ```
 		<style type="text/css">
 			
