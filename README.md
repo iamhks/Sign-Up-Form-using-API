@@ -13,7 +13,7 @@ API stands for Application Programming Interface which in simple terms bridges t
 ## Coding
 
 ### Front-End
-This code generates a modal popup form. Although the css and class for the Click Here button is not present here in the code because I preferred to make use WordPress's button class instead of defining another css for the same.
+This code generates a modal popup form. Although the css and class for the Click Me button is not present here in the code because I preferred to make use WordPress's button class instead of defining another css again.
 ```
 		<style type="text/css">
 			
@@ -70,8 +70,6 @@ This code generates a modal popup form. Although the css and class for the Click
 			<form action="" method="get">
 				<input type="text" placeholder="Name">
 				<input type="email" placeholder="E-Mail"><br>
-				<!--<input class="button" type="submit" id="SendButton" name="submit" value="Submit" />
-				<a href="#" class="button">Subscirbe!</a>-->
 				<button type="submit" id="btn-submit">Subscribe!</button>
 			</form>
 	
@@ -90,9 +88,10 @@ document.querySelector('.close').addEventListener("click", function() {
 ```
 Shown below is the button created which when click makes a full screen popup. We are preferring a full screen popup because it is easier to scale on mobile devices too.
 ![](FE1.png)
-Shown below is the output of the popup.
+<br>
+Shown below is the output of the popup. This also checks whether the email is of valid format or not because we have defined already the input type which is validated by the submit button.
 ![](FE2.png)
-
+<br>
 ### Back-End
 
 ## Setting it up
